@@ -1,0 +1,81 @@
+body{
+  
+
+ background-color: #f5d9d5;
+ font-family: 'Nunito',sans-serif;
+}
+
+nav a{
+    color: rgba(255, 255, 255,1);
+    
+    font-size: 25px;
+    margin-left: 12px;
+    padding-top: 0;
+    text-transform: uppercase;
+    padding-bottom: 12px;
+}
+.navbar-brand{
+    color: #e75480;
+    font-size: 30px;
+    padding-top: 0;
+    padding-left: 0;
+    padding-bottom: 12px;
+}
+nav a:hover{
+    color: #e75480;
+
+}
+.navbar-dark .navbar-toggler-icon {
+    border: 1px solid white;
+  }
+  h2{
+      color: rgba(255, 255, 255, 0.8);
+      font-size: 50px;
+      text-shadow: 2px 2px 4px black;
+        
+    }
+
+.col-lg-12{
+    background-image: url(girl2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position-x: 15px ;
+    background-position-y: -300px;
+    
+}
+
+
+
+.display-2{
+    font-size: 50px;
+    color:#e75480 ;
+ font-family: "Nunito",sans-serif;
+ text-shadow: 1px 1px 4px rgba(0, 0, 0,0.2);
+
+}
+
+.col-md-6{
+    background-position-x:  50px ;
+    background-position-y:   -300px   ;
+}
+p{
+    color: #e75480
+}
+.blurb{
+    line-height: 2;
+}
+
+@media (min-width:600px) {
+    body {
+      font-size: 16px;
+    }
+  }
+
+  
+
+.navbar.scrolled {
+    background: rgb(222,192,222);
+   
+}
